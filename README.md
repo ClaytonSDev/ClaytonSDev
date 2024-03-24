@@ -15,6 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 # Clayton Sales
+# developer
 
 Atualmente estudante de Análise e desenvolvimento de sistemas.
 
