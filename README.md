@@ -1,25 +1,110 @@
-## Bem-vindo(a) ao perfil do ClaytonSDev 😁
+# 🚀 Wine Tech
 
- <div>
-   <a href="https://github.com/ClaytonSDev">
-   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ClaytonSDev&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ClaytonSDev&layout=compact&langs_count=6&theme=tokyonight"/>
-</div>
-    
-<div style="display: inline_block"><br>
-  <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+Plataforma Full Stack para desenvolvimento e gestão de sistemas web, simulando o funcionamento de uma software house moderna.
 
-          
-</div>
+## 🧠 Sobre o Projeto
+
+O Wine Tech é uma aplicação full stack desenvolvida com foco em demonstrar, na prática, a construção de sistemas web completos, integrando front-end, back-end e banco de dados.
+
+O projeto simula um ambiente real de desenvolvimento, com organização em camadas, APIs REST e deploy em produção.
+
+## 🛠️ Tecnologias Utilizadas
+
+### 🔹 Back-End
+- Java
+- Spring Boot
+- APIs REST
+- PostgreSQL
+
+### 🔹 Front-End
+- React
+- TypeScript
+- Tailwind CSS
+
+### 🔹 DevOps / Ferramentas
+- Git e GitHub
+- Render (deploy back-end)
+- cPanel (deploy front-end)
+
+## ⚙️ Funcionalidades
+
+- Estrutura de API REST para comunicação entre front-end e back-end  
+- Integração com banco de dados PostgreSQL  
+- Interface web moderna e responsiva  
+- Organização em camadas (Controller, Service, Repository)  
+- Sistema preparado para expansão e novos módulos  
+
+## 🌐 Deploy
+
+🔗 Front-End:  
+
+(www.winetechinologia.com.br) vai subir para o ar dia 05/04/26
+
+🔗 Back-End:  
+
+(https://wine-tech-backend.onrender.com/)
+
+## 📸 Preview
+
+(em breve colocarei prints da tela sobre a interface)
+
+## 📂 Estrutura do Projeto
+
+### Back-End
+
+controller/ service/ repository/ model/
+
+### Front-End
+
+components/ pages/ services/
+
+## 🧪 Como Executar o Projeto
+
+### 🔹 Back-End (Spring Boot)
+
+```bash
+# Clone o repositório
+git clone https://github.com/ClaytonSDev/wine-tech-backend
+
+# Acesse a pasta
+cd wine-tech-backend
+
+# Execute o projeto
+./mvnw spring-boot:run
+
+🔹 Front-End (React)
+
+# Clone o repositório
+git clone https://github.com/ClaytonSDev/wine-tech-frontend
+
+# Acesse a pasta
+cd wine-tech-frontend
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm run dev
+
+🎯 Objetivo
+
+Este projeto foi desenvolvido com o objetivo de aplicar na prática conhecimentos em desenvolvimento full stack, simulando demandas reais de uma software house.
+
+👨‍💻 Autor
+
+Desenvolvido por Clayton Sales
+
+🔗 https://github.com/ClaytonSDev⁠�
+
+📌 Status do Projeto
+
+🚀 Em desenvolvimento e evolução contínua
+
+- Link do Sistema: 
+
+www.winetechinologia.com.br (05/04/26 estará no ar)
  
-<br>
- 
-### Conecte-se comigo para conteúdo sobre programação nas redes abaixo!
- 
-<div> 
-  <a href="https://www.instagram.com/claytonsalesdev" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
- <a href = "mailto:claytonsalesdev@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
- <a href="https://www.linkedin.com/in/clayton-sales-29521b1a5" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-</div>
+- Link da AP:
+
+https://wine-tech-backend.onrender.com/
+
