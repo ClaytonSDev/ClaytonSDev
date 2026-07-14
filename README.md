@@ -1,110 +1,214 @@
 # 🚀 Wine Tech
 
-Plataforma Full Stack para desenvolvimento e gestão de sistemas web, simulando o funcionamento de uma software house moderna.
+> Plataforma Full Stack desenvolvida para demonstrar a construção de aplicações web modernas utilizando Java, Spring Boot, React, TypeScript e PostgreSQL.
 
-## 🧠 Sobre o Projeto
+![Status](https://img.shields.io/badge/status-Em%20Desenvolvimento-success)
+![Java](https://img.shields.io/badge/Java-17-orange)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen)
+![React](https://img.shields.io/badge/React-19-61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791)
 
-O Wine Tech é uma aplicação full stack desenvolvida com foco em demonstrar, na prática, a construção de sistemas web completos, integrando front-end, back-end e banco de dados.
+---
 
-O projeto simula um ambiente real de desenvolvimento, com organização em camadas, APIs REST e deploy em produção.
+# 📖 Sobre o Projeto
 
-## 🛠️ Tecnologias Utilizadas
+A **Wine Tech** é uma aplicação **Full Stack** desenvolvida para simular o ambiente de uma software house moderna.
 
-### 🔹 Back-End
-- Java
+O projeto foi criado para aplicar boas práticas de desenvolvimento de software, incluindo arquitetura em camadas, APIs REST, integração entre frontend e backend, persistência de dados, validação, tratamento global de exceções e deploy em ambiente de produção.
+
+---
+
+# 🏗 Arquitetura
+
+## Backend
+
+```
+Controller
+    │
+    ▼
+Service
+    │
+    ▼
+Repository
+    │
+    ▼
+PostgreSQL
+```
+
+## Frontend
+
+```
+Pages
+    │
+    ▼
+Components
+    │
+    ▼
+Context API
+    │
+    ▼
+API REST
+```
+
+---
+
+# 🛠 Tecnologias
+
+## Backend
+
+- Java 17
 - Spring Boot
-- APIs REST
+- Spring Data JPA
+- Hibernate
 - PostgreSQL
+- Bean Validation
+- Spring Security
+- Java Mail Sender
+- Maven
 
-### 🔹 Front-End
+## Frontend
+
 - React
 - TypeScript
-- Tailwind CSS
+- Styled Components
+- React Router
+- Context API
+- Axios
 
-### 🔹 DevOps / Ferramentas
-- Git e GitHub
-- Render (deploy back-end)
-- cPanel (deploy front-end)
+## Ferramentas
 
-## ⚙️ Funcionalidades
+- Git
+- GitHub
+- Render
+- Vercel
+- Postman
 
-- Estrutura de API REST para comunicação entre front-end e back-end  
-- Integração com banco de dados PostgreSQL  
-- Interface web moderna e responsiva  
-- Organização em camadas (Controller, Service, Repository)  
-- Sistema preparado para expansão e novos módulos  
+---
 
-## 🌐 Deploy
+# ✨ Funcionalidades
 
-🔗 Front-End:  
+- ✅ API REST
+- ✅ Integração Frontend + Backend
+- ✅ Persistência em PostgreSQL
+- ✅ Formulário de contato
+- ✅ Envio automático de e-mails
+- ✅ Bean Validation
+- ✅ Tratamento global de exceções
+- ✅ Configuração de CORS
+- ✅ Spring Security
+- ✅ Interface responsiva
+- ✅ Organização em camadas
+- ✅ Deploy em produção
 
-(www.winetechinologia.com.br) vai subir para o ar dia 05/04/26
+---
 
-🔗 Back-End:  
+# 🌐 Demonstração
 
-(https://wine-tech-backend.onrender.com/)
+## Aplicação
 
-## 📸 Preview
+https://wine-tech-frontend.vercel.app/
 
-(em breve colocarei prints da tela sobre a interface)
-
-## 📂 Estrutura do Projeto
-
-### Back-End
-
-controller/ service/ repository/ model/
-
-### Front-End
-
-components/ pages/ services/
-
-## 🧪 Como Executar o Projeto
-
-### 🔹 Back-End (Spring Boot)
-
-```bash
-# Clone o repositório
-git clone https://github.com/ClaytonSDev/wine-tech-backend
-
-# Acesse a pasta
-cd wine-tech-backend
-
-# Execute o projeto
-./mvnw spring-boot:run
-
-🔹 Front-End (React)
-
-# Clone o repositório
-git clone https://github.com/ClaytonSDev/wine-tech-frontend
-
-# Acesse a pasta
-cd wine-tech-frontend
-
-# Instale as dependências
-npm install
-
-# Execute o projeto
-npm run dev
-
-🎯 Objetivo
-
-Este projeto foi desenvolvido com o objetivo de aplicar na prática conhecimentos em desenvolvimento full stack, simulando demandas reais de uma software house.
-
-👨‍💻 Autor
-
-Desenvolvido por Clayton Sales
-
-🔗 https://github.com/ClaytonSDev⁠�
-
-📌 Status do Projeto
-
-🚀 Em desenvolvimento e evolução contínua
-
-- Link do Sistema: 
-
-www.winetechinologia.com.br (05/04/26 estará no ar)
- 
-- Link da AP:
+## API
 
 https://wine-tech-backend.onrender.com/
 
+> O domínio oficial **www.winetechinologia.com.br** será disponibilizado em breve.
+
+---
+
+# 📷 Preview
+
+> Em breve serão adicionadas imagens da aplicação.
+
+---
+
+# 🚀 Executando o Projeto
+
+## Backend
+
+```bash
+git clone https://github.com/ClaytonSDev/wine-tech-backend
+
+cd wine-tech-backend
+
+./mvnw spring-boot:run
+```
+
+## Frontend
+
+```bash
+git clone https://github.com/ClaytonSDev/wine-tech-frontend
+
+cd wine-tech-frontend
+
+npm install
+
+npm run dev
+```
+
+---
+
+# 📂 Estrutura
+
+## Backend
+
+```
+controller/
+
+service/
+
+repository/
+
+model/
+
+dto/
+
+config/
+
+exception/
+```
+
+## Frontend
+
+```
+components/
+
+pages/
+
+context/
+
+services/
+
+styles/
+
+assets/
+```
+
+---
+
+# 🎯 Objetivo
+
+Este projeto foi desenvolvido para demonstrar conhecimentos em desenvolvimento Full Stack utilizando Java, Spring Boot, React e TypeScript, simulando um ambiente de desenvolvimento profissional.
+
+O foco foi aplicar boas práticas de arquitetura, organização de código, integração entre sistemas e deploy em produção.
+
+---
+
+# 👨‍💻 Autor
+
+**Clayton Thiago Everton Figueiredo Sales**
+
+💼 LinkedIn:
+https://www.linkedin.com/in/claytonsalesdev
+
+💻 GitHub:
+https://github.com/ClaytonSDev
+
+---
+
+# 📌 Status
+
+🚧 Projeto em evolução contínua.
+
+Novos módulos e funcionalidades serão adicionados futuramente.
